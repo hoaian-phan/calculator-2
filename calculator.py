@@ -19,19 +19,19 @@ elif len(operation_list) == 3:
 
     
 if operation_list[0] == 'add' or operation_list[0] == '+':
-    result = add(first_num, second_num)
+    result = float(add(first_num, second_num))
 elif operation_list[0] == 'subtract' or operation_list[0] == '-':
-    result = subtract(first_num, second_num)
+    result = float(subtract(first_num, second_num))
 elif operation_list[0] == 'multiply' or operation_list[0] == '*':
-    result = multiply(first_num, second_num)
+    result = float(multiply(first_num, second_num))
 elif operation_list[0] == 'divide' or operation_list[0] == '/':
-    result = divide(first_num, second_num)
+    result = float(divide(first_num, second_num))
 elif operation_list[0] == 'square':
-    result = square(first_num)
+    result = float(square(first_num))
 elif operation_list[0] == 'cube':
-    result = cube(first_num)
+    result = float(cube(first_num))
 elif operation_list[0] == 'pow':
-    result = pow(first_num, second_num)
+    result = float(pow(first_num, second_num))
 elif operation_list[0] == 'mod':
-    result = mod(first_num, second_num)
+    result = float(mod(first_num, second_num))
 print(result)
